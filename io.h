@@ -12,7 +12,7 @@
 
 #include<stdarg.h>
 
-void vio(const char*, va_list);
+void vio(const char*, char mode, va_list);
 void print(const char*, ...);
 void io(const char*, ...);
 
